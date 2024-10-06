@@ -21,4 +21,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "design-system-default"
 include(":app")
- 
+include(":design-system")
