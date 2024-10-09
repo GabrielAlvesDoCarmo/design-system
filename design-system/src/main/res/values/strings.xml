@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enter_your_email">Digite seu email :</string>
+    <string name="enter_your_phone">Digite seu Telefone :</string>
+    <string name="enter_your_cep">Digite seu CEP :</string>
+    <string name="enter_your_description">Digite sua descrição :</string>
+    <string name="enter_your_password">Digite sua senha :</string>
+    <string name="enter_your_time">Digite uma hora :</string>
+    <string name="enter_your_date">Digite uma data :</string>
+    <string name="placeholder_phone">(00) 0 0000 - 0000</string>
+    <string name="plqceholder_cep">00000 - 000</string>
+    <string name="insert_valid_phone">Insira um numero valido</string>
+</resources>

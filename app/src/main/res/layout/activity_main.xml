@@ -7,13 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/edit_custom_view"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Ds edit text custom view"
+        android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <br.com.gds.design_system.components.editText.view.DSEditTextCustomView
+        android:id="@+id/edit_text_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:validationType="email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_custom_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
